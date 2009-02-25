@@ -1,0 +1,49 @@
+USER       PID %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+Prakash    204   6.6  3.7   524212  97620   ??  S     6:35PM   4:47.79 /Users/Prakash/Software/Browsers/Firefox.app/Contents/MacOS/firefox-bin -psn_0_90134
+Prakash  42831   1.8  0.3   424164   7480   ??  S     7:14PM   0:01.31 /Applications/Utilities/Terminal.app/Contents/MacOS/Terminal -psn_0_241723
+_windowserver    66   1.4  1.8   443888  46184   ??  Ss    6:09PM   2:35.59 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Resources/WindowServer -daemon
+Prakash  42764   0.0  0.6   150368  15300   ??  Ss    7:06PM   0:02.44 /Developer/usr/bin/ibtool --start-agent /Users/Prakash/Programming/Projects/pux/pux.xcodeproj --agent-timeout 1800.000000
+Prakash  42718   0.0  2.7   644836  71340   ??  S     7:05PM   0:29.81 /Developer/Applications/Xcode.app/Contents/MacOS/Xcode -psn_0_143395
+Prakash  42539   0.0  0.0    76632   1212   ??  S     6:47PM   0:00.03 /usr/bin/ssh-agent -l
+Prakash    154   0.0  0.2    97708   5804   ??  SNs   6:33PM   0:00.96 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker MDSImporterWorker com.apple.Spotlight.ImporterWorker.501
+Prakash    115   0.0  0.4   422772  10608   ??  S     6:09PM   0:01.42 /Applications/Google Notifier.app/Contents/MacOS/Google Notifier -psn_0_57358
+Prakash    110   0.0  0.0   600876    588   ??  S     6:09PM   0:00.00 /usr/sbin/pboard
+root       108   0.0  0.1    79696   3680   ??  Ss    6:09PM   0:01.05 /usr/sbin/coreaudiod
+Prakash    106   0.0  0.6   441496  16996   ??  S     6:09PM   0:03.43 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder -psn_0_45067
+Prakash    104   0.0  0.2   128796   5084   ??  S     6:09PM   0:02.56 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/ATSServer
+Prakash    103   0.0  0.4   423624   9416   ??  S     6:09PM   0:03.56 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer -psn_0_36873
+Prakash    102   0.0  0.3   393724   8156   ??  S     6:09PM   0:01.89 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock -psn_0_24582
+Prakash    101   0.0  0.1   341152   2208   ??  S     6:09PM   0:00.17 /usr/sbin/UserEventAgent -l Aqua
+Prakash    100   0.0  0.6   521540  16200   ??  S     6:09PM   0:04.26 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+Prakash     96   0.0  0.1   388144   2924   ??  S     6:09PM   0:00.09 /System/Library/CoreServices/AirPort Base Station Agent.app/Contents/MacOS/AirPort Base Station Agent -launchd
+Prakash     94   0.0  0.1   355676   2772   ??  S     6:09PM   0:00.13 /System/Library/CoreServices/Folder Actions Dispatcher.app/Contents/MacOS/Folder Actions Dispatcher
+root        75   0.0  0.0    75796   1208   ??  S     6:09PM   0:00.02 /usr/sbin/krb5kdc -n -r LKDC:SHA1.6CE1076EB765BAD22B7BAF991B83CF83B8ED3D37
+Prakash     72   0.0  0.0   599796    520   ??  Ss    6:09PM   0:00.23 /sbin/launchd
+root        58   0.0  0.7    97284  17048   ??  Ss    6:09PM   0:01.37 /System/Library/CoreServices/coreservicesd
+root        50   0.0  0.0    75452    716   ??  Ss    6:09PM   0:00.00 /opt/local/bin/daemondo --label=dbus --start-cmd /opt/local/etc/LaunchDaemons/org.macports.dbus/dbus.wrapper start ; --stop-cmd /opt/local/etc/LaunchDaemons/org.macports.dbus/dbus.wrapper stop ; --restart-cmd /opt/local/etc/LaunchDaemons/org.macports.dbus/dbus.wrapper restart ; --pid=none
+root        49   0.0  0.1    75704   1580   ??  Ss    6:09PM   0:00.32 /usr/libexec/ApplicationFirewall/socketfilterfw
+root        47   0.0  0.0    75388    672   ??  Ss    6:09PM   0:00.01 autofsd
+root        46   0.0  0.1    86716   1888   ??  Ss    6:09PM   0:00.12 /usr/sbin/blued
+root        42   0.0  0.0    75456    968   ??  Ss    6:09PM   0:00.20 /usr/sbin/diskarbitrationd
+root        39   0.0  0.0    75376    704   ??  Ss    6:09PM   0:00.01 /sbin/dynamic_pager -F /private/var/vm/swapfile
+root        37   0.0  0.1   605896   1360   ??  Ss    6:09PM   0:01.16 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Support/fseventsd
+root        36   0.0  0.0   600184    604   ??  Ss    6:09PM   0:00.01 /usr/libexec/hidd
+root        34   0.0  0.0    75496   1020   ??  Ss    6:09PM   0:00.39 /usr/sbin/kdcmond -n -a
+root        33   0.0  0.0   599736    652   ??  Ss    6:09PM   0:00.00 /usr/sbin/KernelEventAgent
+Prakash     32   0.0  0.2   364260   5968   ??  Ss    6:09PM   0:00.65 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+root        31   0.0  1.8   158420  48256   ??  Ss    6:09PM   0:26.03 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+root        27   0.0  0.0   599660    684   ??  Ss    6:09PM   0:00.01 /sbin/SystemStarter
+root        26   0.0  0.0   599620    288   ??  Ss    6:09PM   0:02.06 /usr/sbin/update
+root        25   0.0  0.0   600188    848   ??  Ss    6:09PM   0:00.45 /usr/sbin/ntpd -n -g -p /var/run/ntpd.pid -f /var/db/ntp.drift
+root        21   0.0  0.1    77136   1816   ??  Ss    6:09PM   0:00.15 /usr/sbin/securityd -i
+daemon      20   0.0  0.0   599644    744   ??  Ss    6:09PM   0:00.64 /usr/sbin/distnoted
+_mdnsresponder    15   0.0  0.0    77304   1212   ??  Ss    6:09PM   0:00.08 /usr/sbin/mDNSResponder -launchd
+root        14   0.0  0.1    77000   1900   ??  Ss    6:09PM   0:02.75 /usr/sbin/configd
+root        13   0.0  0.0   601332    480   ??  Ss    6:09PM   0:00.20 /usr/sbin/syslogd
+root        12   0.0  0.0   600236    468   ??  Ss    6:09PM   0:00.17 /usr/sbin/notifyd
+root        11   0.0  0.1    78692   3412   ??  Ss    6:09PM   0:01.54 /usr/sbin/DirectoryService
+root        10   0.0  0.0   600256   1272   ??  Ss    6:09PM   0:00.58 /usr/libexec/kextd
+root     42894   0.0  0.0   599748    432 s000  R+    7:25PM   0:00.00 ps aux
+root         1   0.0  0.0   600820    560   ??  Ss    6:09PM   0:00.19 /sbin/launchd
+Prakash  42833   0.0  0.0   600252    960 s000  S     7:14PM   0:00.03 -bash
+root     42832   0.0  0.0    76592   1104 s000  Ss    7:14PM   0:00.02 login -pf Prakash
