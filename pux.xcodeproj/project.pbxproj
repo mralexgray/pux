@@ -11,7 +11,8 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		CDDE069E0F558E5000C2CDA0 /* DisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDE069D0F558E5000C2CDA0 /* DisplayController.m */; };
+		CD8821490F570C1A00C38A2D /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8821480F570C1A00C38A2D /* ResultsViewController.m */; };
+		CD88216F0F570F9700C38A2D /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = CD88216E0F570F9700C38A2D /* Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +26,10 @@
 		32CA4F630368D1EE00C91783 /* pux_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pux_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* pux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pux.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDDE069C0F558E5000C2CDA0 /* DisplayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayController.h; sourceTree = "<group>"; };
-		CDDE069D0F558E5000C2CDA0 /* DisplayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayController.m; sourceTree = "<group>"; };
+		CD8821470F570C1A00C38A2D /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultsViewController.h; path = Controllers/ResultsViewController.h; sourceTree = "<group>"; };
+		CD8821480F570C1A00C38A2D /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultsViewController.m; path = Controllers/ResultsViewController.m; sourceTree = "<group>"; };
+		CD88216D0F570F9700C38A2D /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		CD88216E0F570F9700C38A2D /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CD88216D0F570F9700C38A2D /* Util.h */,
+				CD88216E0F570F9700C38A2D /* Util.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -118,8 +123,8 @@
 		CDDE06950F558D4800C2CDA0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CDDE069C0F558E5000C2CDA0 /* DisplayController.h */,
-				CDDE069D0F558E5000C2CDA0 /* DisplayController.m */,
+				CD8821470F570C1A00C38A2D /* ResultsViewController.h */,
+				CD8821480F570C1A00C38A2D /* ResultsViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -180,7 +185,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
-				CDDE069E0F558E5000C2CDA0 /* DisplayController.m in Sources */,
+				CD8821490F570C1A00C38A2D /* ResultsViewController.m in Sources */,
+				CD88216F0F570F9700C38A2D /* Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
