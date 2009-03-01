@@ -13,7 +13,7 @@
 - (id)init{
 	[super init];
 	NSLog(@"Initializing...");
-	resultsData = [[NSArray alloc] initWithArray: [Util processList]];
+	resultsData = [[NSArray	alloc] initWithArray: [Util processList]];
 	return self;
 }
 
@@ -25,11 +25,9 @@
 objectValueForTableColumn:(NSTableColumn *)tableColumn 
 			row:(int)row 
 { 
-	id it  = @"pname";
-//	NSLog(@"%s", [[tableColumn identifier] name]);
-	if([tableColumn identifier]== it){
-		return [resultsData objectAtIndex: row];
-	}
-	return @"huh";
+	NSString *haha2 = [[NSString alloc] initWithFormat: @"%@", [tableColumn identifier]];
+	BOOL ans = [haha2 isEqualToString:@"pname"];
+	if(ans) return [resultsData objectAtIndex: row];
+	return @"";
 } 
 @end

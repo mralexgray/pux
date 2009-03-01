@@ -13,5 +13,5 @@
 
 }
 
-+(NSArray *)processList;
++(NSMutableArray *)processList;
 @end
